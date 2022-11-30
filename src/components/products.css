@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
+
+  .first-class{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .first-class button{
+    background-color: rgb(41, 41, 228);
+    color: white;
+    height:3em;
+    border-radius: 0.5em;
+    width: 9em;
+    font-weight: bold;
+  }
+  .bottlespics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  .comp{
+    width:30%;
+    border:2px solid rgb(238, 236, 236);
+    border-radius: 0.5em;
+    margin-bottom:4em
+  }
+  .comp img{
+    width:100%
+  }
+
+  .propage{
+    display: flex;
+    justify-content: space-between;
+  }
+  .propage div{
+    width:49%;
+  }
+
+  .propage img{
+    width:100%;
+  }
+  .propage button{
+    background-color: rgb(41, 41, 228);
+    color: white;
+    border-radius: 0.25em;
+    font-weight: bold;
+    margin-top: 1em;
+    height:3em
+  }
