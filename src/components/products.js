@@ -9,13 +9,13 @@ const Qfun = () => {
 
 export default function Products() {
 
-    const { isLoading: is1, data: d1 } = useQuery('bottle', Qfun);  
+    const { isLoading: is1, data: d1 } = useQuery('bottle', Qfun);
 
     if (is1) {
         return <h1>Loading...</h1>
     }
 
-  return (
+    return (
         <div>
             <div className='first-class'>
                 <h1>Products</h1>
@@ -23,8 +23,8 @@ export default function Products() {
             </div>
 
             <div className='bottlespics'>
-               {d1?.data.map(item => <Bottlebox key={item.id} name={item.name}  img={item.image} des={item.description} price={item.price} id={item.id}/>)}
-                {d1?.data.map(item => <Bottlebox key={item.id} name={item.name}  img={item.image} des={item.description} price={item.price} id={item.id}/>)}
+                {d1?.data.map(item => <Bottlebox key={item.id} name={item.name} img={item.image} des={item.description} price={item.price} id={item.id} />)}
+                {d1?.data.map(item => <Bottlebox key={item.id} name={item.name} img={item.image} des={item.description} price={item.price} id={item.id} />)}
             </div>
 
         </div>
