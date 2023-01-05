@@ -59,3 +59,9 @@ body {
     margin-top: 1em;
     height:3em
   }
+
+.IncDecBtn button{
+  height: 25px;
+  width:30px;
+  margin: 10px;
+}
