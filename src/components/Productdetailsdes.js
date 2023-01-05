@@ -1,4 +1,5 @@
 import './products.css'
+import AddToCartBtn from './AddToCartBtn'
 export default function Productdetailsdes(props) {
 
     function handleClick(img) {
@@ -7,7 +8,7 @@ export default function Productdetailsdes(props) {
 
     return (
         <div>
-            <h3>Bottle</h3>
+            <h3>{props.obj.name}</h3>
             {props.des}
             <p>Price:<strong>${props.price}</strong></p>
 
@@ -19,11 +20,11 @@ export default function Productdetailsdes(props) {
 
             {props.var.map(item =>
                 <button onClick={() => handleClick(item.image)} style={{ backgroundColor: `${item.color}`, height: "30px", width: "40px", margin: "5px" }}></button>
-
             )}
 
             <br></br>
-            <button>Add to Cart</button>
+            <AddToCartBtn obj={props.obj}/>
+            
         </div>
 
     )

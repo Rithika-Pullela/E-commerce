@@ -1,0 +1,39 @@
+.body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
+
+  .CartBtn{
+    background-color: blue;
+    color:white;
+    border-radius: 0.3em;
+    margin-left: 93.5%;
+  }
+
+  .CartPage{
+    width:30%;
+    border: 1px solid black;
+    margin-left: 54%;
+    padding: 2px;
+    background-color: rgb(182, 177, 177);
+    position: fixed;
+  }
+
+  .Cartitem{
+    display: flex;
+    padding: 25px;
+  }
+  .Cartitem img{
+    width:175px;
+    height:175px;
+  }
+
+  .Cartitem div{
+    padding: 10px;
+    overflow: hidden;
+  }
